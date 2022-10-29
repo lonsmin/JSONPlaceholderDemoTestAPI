@@ -1,1 +1,160 @@
-{"users":[{"id":0,"email":"admin0@dotace.cz","name":"Michal","surname":"Bajtalon","role":"admin","options":{}},{"id":1,"email":"contractor0@dotace.cz","name":"Kazimír","surname":"Kopeček","role":"contractor","options":{}}],"clients":[{"id":0,"user_id":0,"email":"client0@dotace.cz","name":"Karel","surname":"Stehlík","phone":"+420 776 321 123","address":"Náměstí","city":"Náchod","landRegNumber":123,"houseNumber":16,"zipcode":54701},{"id":1,"user_id":0,"email":"client1@dotace.cz","name":"Jan","surname":"Mareš","phone":"+420 604 321 123","address":"Okružní","city":"Hradec Králové","landRegNumber":456,"houseNumber":17,"zipcode":50002},{"id":2,"user_id":0,"email":"client2@dotace.cz","name":"Dominik","surname":"Varga","phone":"+420 776 321 123","address":"Husitská","city":"Praha","landRegNumber":45,"houseNumber":17,"zipcode":13000}],"contracts":[{"id":0,"user_id":0,"name":"Služba Deštovka","service":6,"operation":[{"id":0,"status":0},{"id":1,"status":0},{"id":1,"status":0}],"agreedPrice":20000,"deposit":true,"comment":""}],"objects":[{"id":0,"client_id":0,"address":"U Drážky","city":"Litoměřice","landRegNumber":123,"houseNumber":9,"zipcode":27887,"next_owner":[{"id":1,"email":"owner@dotace.cz","name":"Karel","surname":"Stehlík","phone":"+420 776 321 123","address":"U Drážky","city":"Litoměřice","landRegNumber":123,"houseNumber":9,"zipcode":27887}]},{"id":1,"client_id":0,"address":"U Drážky","city":"Litoměřice","landRegNumber":123,"houseNumber":9,"zipcode":27887,"next_owner":[{"id":1,"email":"owner@dotace.cz","name":"Daniel","surname":"Kolman","phone":"+420 605 321 123","address":"Na Petynce","city":"Prostějov","landRegNumber":5,"houseNumber":null,"zipcode":13431}]}]}
+{
+    "users":[
+        {
+            "id":0,
+            "email":"admin0@dotace.cz",
+            "name":"Michal",
+            "surname":"Bajtalon",
+            "role":"admin",
+            "options":{}
+        },
+        {
+            "id":1,
+            "email":"contractor0@dotace.cz",
+            "name":"Kazimír",
+            "surname":"Kopeček",
+            "role":"contractor",
+            "options":{}
+        }
+    ],
+    "clients":[
+        {
+            "id":0,
+            "user_id":0,
+            "email":"client0@dotace.cz",
+            "name":"Karel",
+            "surname":"Stehlík",
+            "phone":"+420 776 321 123",
+            "address":"Náměstí",
+            "city":"Náchod",
+            "landRegNumber":123,
+            "houseNumber":16,
+            "zipcode":54701
+            
+        },
+        {
+            "id":1,
+            "user_id":0,                         
+            "email":"client1@dotace.cz",
+            "name":"Jan",
+            "surname":"Mareš",
+            "phone":"+420 604 321 123",
+            "address":"Okružní",
+            "city":"Hradec Králové",
+            "landRegNumber":456,
+            "houseNumber":17,
+            "zipcode":50002
+            
+        },
+        {
+            "id":2,
+            "user_id":0,
+            "email":"client2@dotace.cz",
+            "name":"Dominik",
+            "surname":"Varga",
+            "phone":"+420 776 321 123",
+            "address":"Husitská",
+            "city":"Praha",
+            "landRegNumber":45,
+            "houseNumber":17,
+            "zipcode":13000
+        }
+    ],
+    "contracts":[
+        {
+            "id":0,
+            "user_id":0,
+            "name":"Služba Deštovka",
+            "service":6,
+            "operation":[
+                {
+                    "id":0,
+                    "status":0
+                },
+                {
+                    "id":1,
+                    "status":0
+                },
+                {
+                    "id":2,
+                    "status":0
+                }
+
+            ],
+            "agreedPrice":20000,
+            "deposit":true,
+            "comment":""
+        },
+        {
+            "id":1,
+            "user_id":0,
+            "name":"Služba vzduchotechnika",
+            "service":8,
+            "operation":[
+                {
+                    "id":0,
+                    "status":0
+                },
+                {
+                    "id":1,
+                    "status":0
+                },
+                {
+                    "id":2,
+                    "status":0
+                }
+
+            ],
+            "agreedPrice":20000,
+            "deposit":false,
+            "comment":""
+        }
+    ],
+    "objects":[
+        {
+            "id":0,
+            "client_id":0,
+            "address":"U Drážky",
+            "city":"Litoměřice",
+            "landRegNumber":123,
+            "houseNumber":9,
+            "zipcode":27887,
+            "next_owner":[
+                {
+                    "id":1,
+                    "email":"owner@dotace.cz",
+                    "name":"Karel",
+                    "surname":"Stehlík",
+                    "phone":"+420 776 321 123",
+                    "address":"U Drážky",
+                    "city":"Litoměřice",
+                    "landRegNumber":123,
+                    "houseNumber":9,
+                    "zipcode":27887
+                }
+            ]
+        },
+        {
+            "id":1,
+            "client_id":0,
+            "address":"U Drážky",
+            "city":"Litoměřice",
+            "landRegNumber":123,
+            "houseNumber":9,
+            "zipcode":27887,
+            "next_owner":[
+                {
+                    "id":1,
+                    "email":"owner@dotace.cz",
+                    "name":"Daniel",
+                    "surname":"Kolman",
+                    "phone":"+420 605 321 123",
+                    "address":"Na Petynce",
+                    "city":"Prostějov",
+                    "landRegNumber":5,
+                    "houseNumber":null,
+                    "zipcode":13431
+                }
+            ]
+        }
+    ]}
