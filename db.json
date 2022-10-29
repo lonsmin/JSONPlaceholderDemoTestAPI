@@ -65,7 +65,7 @@
             "id":0,
             "user_id":0,
             "name":"Služba Deštovka",
-            "service":6,
+            "service":4,
             "operation":[
                 {
                     "id":0,
@@ -157,4 +157,5 @@
                 }
             ]
         }
-    ]}
+    ]
+}
