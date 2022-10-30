@@ -64,39 +64,104 @@
         {
             "id":0,
             "user_id":0,
+            "object_id":0,
             "service":4,
             "operation":[
                 {
                     "id":0,
-                    "status":0
+                    "name":"Souhlasné prohlášení vlastníků",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
                 },
                 {
                     "id":1,
-                    "status":0
-                },
-                {
-                    "id":2,
-                    "status":0
+                    "name":"Potvrzení o bankovním účtu",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
                 },
                 {
                     "id":3,
-                    "status":0
+                    "name":"eIdentita",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
                 },
                 {
                     "id":4,
-                    "status":0
+                    "name":"Souhlasy-Památkově chráněné území",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
                 },
                 {
                     "id":5,
-                    "status":0
+                    "name":"Situační výkres umístění dešťovky a zakreslení dešťových svodů",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
                 },
                 {
                     "id":6,
-                    "status":0
+                    "name":"Technická zpráva",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
                 },
                 {
                     "id":7,
-                    "status":0
+                    "name":"Technický list akumulační nádoby",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
+                },
+                {
+                    "id":8,
+                    "name":"Výkres střechy",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
+                },
+                {
+                    "id":9,
+                    "name":"Schématické zakreslení napojení WC vnitřních rozvodů",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
+                },
+                {
+                    "id":10,
+                    "name":"Dokumenty prokazující projednání záměru s provozovatelem kanalizace",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
+                },
+                {
+                    "id":11,
+                    "name":"Faktury ve správném formátu",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
+                },
+                {
+                    "id":12,
+                    "name":"schématický zakreslení nádrže v zemi",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
                 }
             ],
             "agreedPrice":20000,
@@ -106,24 +171,147 @@
         {
             "id":1,
             "user_id":0,
-            "service":8,
+            "service":5,
             "operation":[
                 {
                     "id":0,
-                    "status":0
+                    "name":"Souhlasné prohlášení vlastníků",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
                 },
                 {
                     "id":1,
-                    "status":0
-                },
-                {
-                    "id":2,
-                    "status":0
+                    "name":"Potvrzení o bankovním účtu",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
                 },
                 {
                     "id":3,
-                    "status":0
+                    "name":"eIdentita",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
+                },
+                {
+                    "id":4,
+                    "name":"Souhlasy-Památkově chráněné území",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
+                },
+                {
+                    "id":5,
+                    "name":"Situační výkres umístění dešťovky a zakreslení dešťových svodů",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
+                },
+                {
+                    "id":6,
+                    "name":"Technická zpráva",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
+                },
+                {
+                    "id":7,
+                    "name":"Technický list akumulační nádoby",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
+                },
+                {
+                    "id":8,
+                    "name":"Výkres střechy",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
+                },
+                {
+                    "id":9,
+                    "name":"schématický zakreslení nádrže v zemi",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
                 }
+            ],
+            "agreedPrice":20000,
+            "deposit":false,
+            "comment":""
+        },
+        {
+            "id":2,
+            "user_id":1,
+            "service":6,
+            "operation":[
+                {
+                    "id":0,
+                    "name":"Souhlasné prohlášení vlastníků",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
+                },
+                {
+                    "id":1,
+                    "name":"Potvrzení o bankovním účtu",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
+                },
+                {
+                    "id":3,
+                    "name":"eIdentita",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
+                },
+                {
+                    "id":4,
+                    "name":"Souhlasy-Památkově chráněné území",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
+                },
+                {
+                    "id":5,
+                    "name":"Projektová dokumentace",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
+                },
+                {
+                    "id":6,
+                    "name":"Technický list nebo typ použité nabíječky pro elektromobil",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
+                },
+                {
+                    "id":7,
+                    "name":"Faktury ve správném formátu",
+                    "supplier":"client",
+                    "type":"deliverDocument",
+                    "status":0,
+                    "desc":""
+                }
+
             ],
             "agreedPrice":20000,
             "deposit":false,
@@ -177,4 +365,5 @@
                 }
             ]
         }
-    ]}
+    ]
+}
