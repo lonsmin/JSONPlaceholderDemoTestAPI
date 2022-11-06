@@ -245,7 +245,7 @@
             "landRegNumber":123,
             "houseNumber":9,
             "zipcode":27887,
-            "next_owner":[
+            "owners":[
                 {
                     "id":1,
                     "email":"owner@dotace.cz",
@@ -268,7 +268,7 @@
             "landRegNumber":123,
             "houseNumber":9,
             "zipcode":27887,
-            "next_owner":[
+            "owners":[
                 {
                     "id":1,
                     "email":"owner@dotace.cz",
