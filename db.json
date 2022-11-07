@@ -247,16 +247,18 @@
             "zipcode":27887,
             "owners":[
                 {
-                    "id":1,
-                    "email":"owner@dotace.cz",
+                    "id":0,
+                    "user_id":0,
+                    "email":"client0@dotace.cz",
                     "name":"Karel",
                     "surname":"Stehlík",
                     "phone":"+420 776 321 123",
-                    "address":"U Drážky",
-                    "city":"Litoměřice",
+                    "address":"Náměstí",
+                    "city":"Náchod",
                     "landRegNumber":123,
-                    "houseNumber":9,
-                    "zipcode":27887
+                    "houseNumber":16,
+                    "zipcode":54701
+                    
                 }
             ]
         },
