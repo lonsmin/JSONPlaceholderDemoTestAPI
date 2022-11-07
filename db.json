@@ -272,7 +272,22 @@
             "zipcode":65610,
             "owners":[
                 {
+                    "id":0,
+                    "user_id":0,
+                    "email":"client0@dotace.cz",
+                    "name":"Karel",
+                    "surname":"Stehlík",
+                    "phone":"+420 776 321 123",
+                    "address":"Náměstí",
+                    "city":"Náchod",
+                    "landRegNumber":123,
+                    "houseNumber":16,
+                    "zipcode":54701
+                    
+                },
+                {
                     "id":1,
+                    "user_id":null,
                     "email":"owner@dotace.cz",
                     "name":"Daniel",
                     "surname":"Kolman",
