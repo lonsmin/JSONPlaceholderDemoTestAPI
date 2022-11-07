@@ -263,11 +263,11 @@
         {
             "id":1,
             "client_id":0,
-            "address":"U Drážky",
-            "city":"Litoměřice",
-            "landRegNumber":123,
-            "houseNumber":9,
-            "zipcode":27887,
+            "address":"Karlínské nám.",
+            "city":"Česká Lípa",
+            "landRegNumber":4,
+            "houseNumber":76,
+            "zipcode":65610,
             "owners":[
                 {
                     "id":1,
@@ -281,6 +281,32 @@
                     "houseNumber":null,
                     "zipcode":13431
                 }
+            ]
+        },
+        {
+            "id":2,
+            "client_id":1,
+            "address":"Na Petynce",
+            "city":"Prostějov",
+            "landRegNumber":5,
+            "houseNumber":null,
+            "zipcode":13431,
+            "owners":[
+                {
+                "id":1,
+                "user_id":0,                         
+                "email":"client1@dotace.cz",
+                "name":"Jan",
+                "surname":"Mareš",
+                "phone":"+420 604 321 123",
+                "address":"Okružní",
+                "city":"Hradec Králové",
+                "landRegNumber":456,
+                "houseNumber":17,
+                "zipcode":50002
+                
+            }
+                
             ]
         }
     ]
